@@ -16,7 +16,7 @@
   "homepage": "https://github.com/xzdarcy/react-timeline-editor#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xzdarcy/react-timeline-editor.git"
+    "url": "git+https://github.com/rzuazua/react-timeline-editor.git"
   },
   "scripts": {
     "start": "dumi dev",
