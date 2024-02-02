@@ -233,8 +233,8 @@ export const EditAction: FC<EditActionProps> = ({
           }
         }}
         className={prefix((classNames || []).join(' '))}
-        style={{ height: rowHeight }}
-      >
+        style={{ height: rowHeight, zIndex: id === 'action000' ? 0 : 1, opacity: id === 'action000' ? 1 : .7 }}
+        >
         {getActionRender && getActionRender(nowAction, nowRow)}
         {flexible && <div className={prefix('action-left-stretch')} />}
         {flexible && <div className={prefix('action-right-stretch')} />}
